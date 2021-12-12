@@ -25,7 +25,7 @@ section{
     display: inline-block;
     width:200px;
     height:100px;
-    position: absolute;
+    position: relatigve;
 	left:25px;
     
 }
