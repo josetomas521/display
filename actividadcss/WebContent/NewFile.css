@@ -25,8 +25,9 @@ section{
     display: inline-block;
     width:200px;
     height:100px;
-    position: relatigve;
-	left:25px;
+    position: absolute;
+	left:45px;
+    top:510px;
     
 }
 
@@ -36,8 +37,9 @@ section{
     display: inline-block;
     width:200px;
     height:100px; 
-    position:relative;
-    margin-left:5px;
+    position:absolute;
+    left:545px;
+    top:510px;
     
 }
 
@@ -48,9 +50,9 @@ section{
     display: inline-block;
     width:200px;
     height:100px;  
-    position:relative;
-    margin-top: -45px;
-    margin-left:45px;
+    position:absolute;
+    left:70px;
+    top:600px;
 }
 
 
@@ -67,13 +69,19 @@ section{
 
 img{
 	border:black 5px solid;
+
 }
 .img2{
-	position:relative;
-	right:25px;
+	position:absolute;
+	left:310px;
+	
+	
 }
 .imggrande{
 	width:300px;
     height:300px;
+    left:225px;
+    position:absolute;
+    z-index:-1;
 	
 }
